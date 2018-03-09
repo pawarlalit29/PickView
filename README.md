@@ -98,6 +98,23 @@ Add more custom attributes, Just see below  version 1.1.1
    compile 'com.brucetoo.pickview:library:1.2.3'
  
 ```
+or
+```java 
+
+   	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+    
+    dependencies {
+	        compile 'com.github.pawarlalit29:PickView:1.0.1'
+	}
+
+ 
+```
+
 
 ## TODO
 
